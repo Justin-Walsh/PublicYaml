@@ -37,7 +37,7 @@ spec:
                 port:
                   number: 8080
 #{if Octopus.Environment.Name == "Prod"}
-    - host: '#prod.octo.local'
+    - host: 'prod.octo.local'
       http:
         paths:
           - path: /
